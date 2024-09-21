@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro usuário </title>
+
+    <style>
+form {
+        text-align: center;
+     }
+     p {
+        margin: 10px 0;
+     }
+     body {
+        background: rgb(150, 150, 247);
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+     }
+    
+     legend {
+      color: #333;
+      font-size: 24px;
+      text-align:center
+        }
+
+        
+    
+
+     button {
+      background-color: #4CAF50; /* Verde */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+     }
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+    
+    <form method="post" action="#">
+
+        <fieldset>
+            <legend>Cadastro de Usuário</legend>
+
+            <label for="nomePessoa">Nome:</label>
+            <input name="nomePessoa" type="text" placeholder="Nome Completo" required><br><br>
+
+       
+            <label for="emailpessoa">Email:</label>
+            <input name="emailpessoa" type="email" placeholder="@gmail.com " required><br><br>
+
+
+            <label for="senhapessoa">Senha</label>
+            <input name="senhapessoa" type="password" minlength="6" required> <br><br>
+
+    
+            <label for="senhapessoa">Confirmar senha:</label>
+            <input name="senhapessoa" type="password" minlength="6" required><br><br>
+
+
+            <label for="perfilpessoa">Perfil:</label>
+
+
+            <input name="professor" type="radio">
+            <label for="professor>Professor</label><br>
+
+
+            <input name="administrador" type="radio">
+            <label for="administrador>Administrador</label><br>
+    
+
+            <input name="jogador" type="radio">
+            <label for="jogadorJogador</label><br>
+            
+
+        </fieldset> <br> <br>
+
+
+
+        <fieldset>
+
+            <p> <button type=submit>Login</button></p>
+
+       </fieldset>
+       
+
+    </form>
+
+</body>
+</html>
